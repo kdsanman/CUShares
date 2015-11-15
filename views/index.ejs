@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+	 
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	 <script type="text/javascript" src="feed.js"></script>
+
+  </head>
+  <body>
+
+  	<nav id = "nav">
+	<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+ 	<div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Welcome!</a>
+      <ul class="nav navbar-nav">
+      	<li><a href="#About">About</a></li>
+      	<li><a href="#QuickSearch">Quick Search</a></li>
+      	<li><a href="#Live Feed">Live Feed</a></li>
+      	</ul>
+    </div>
+	</nav>
+    
+	<div id="About">
+		<div class="jumbotron">
+		<div class="container">
+		<h1><%= title %></h1>
+		</div>
+		</div>
+	</div>
+	</div>
+    <div id="QuickSearch">
+	<div class="page-header">
+	<h1>Search Suggestions</h1>
+	</div>
+	<div class="row">
+		<div class="col-xs-6 col-md-3">
+			<a class="thumbnail">
+			<h3>Cleaning Supplies</h3>
+			<img src= "images/cleaningsupplies.jpg" height="110px" width="110px">
+			</a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<a class="thumbnail">
+			<h3>Kitchen Appliances</h3>
+			<img src= "images/kitchenappliances.jpg" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<a class="thumbnail">
+			<h3>Electronics</h3>
+			<img src= "images/electronics.jpg" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<a class="thumbnail">
+			<h3>Office Supplies</h3>
+			<img src= "images/officesuplies.jpg" height="100px" width="100px">
+			</a>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-6 col-md-3">
+			<a class="thumbnail">
+			<h3>Toiletries</h3>
+			<img src="images/toiletries.jpg" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<a class="thumbnail">
+			<h3>Clothes</h3>
+			<img src= "images/clothes.jpg" height="100px" width="100px">
+			</a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<a class="thumbnail">
+			<h3>Meal Swipes</h3>
+			<img src= "images/swipes.jpg" width="100px" height="100px">
+			</a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<a class = "thumbnail">
+			<h3>Hardware</h3>
+			<img src="images/hardware.jpg" height="100px" width="100px">
+			</a>
+		</div>
+	</div>
+
+	<div id="alignment">
+      <form action="/results" method="post">
+      	Looking for something specific?
+      	Search Twitter:
+      	#CUShares and <input type="search" name="twittersearch">
+      	<input type="submit">
+      </form>
+    </div>
+	
+	<div class="container-fluid">
+	<div id="Live Feed">
+		<div class="page-header">		
+		  <h1>Check out what others are sharing or requesting here!</h1>
+		</div>		
+	<div class = "row">
+	<div class="col-md-4">
+	</div>
+	<div class="col-md-4">
+  		<a class="twitter-timeline" href="https://twitter.com/hashtag/CUShares" id="feed" data-widget-id="665597831516979200">#CUShares Tweets</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  	<div class="col-md-4">
+  	</div>
+  	</div>
+  	</div>
+  	</div>
+	
+	<footer id="foot01"></footer>
+	<script src="script.js"></script>
+	<a href="https://twitter.com/intent/tweet"></a>
+  </body>
+</html>
