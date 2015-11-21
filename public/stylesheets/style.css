@@ -112,6 +112,12 @@ ul#menu li a:hover {
 }
 
 #header h1{
-        color: #33cbff;
+        color: #0000F5;
         font-size: 100px;
+     
+        text-shadow:
+           -3px -3px 0 #ffffff, 
+            3px -3px 0 #ffffff,
+           -3px 3px 0 #ffffff,
+            3px 3px 0 #ffffff;
 }
