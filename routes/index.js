@@ -38,8 +38,8 @@ router.get('/how_it_works', function(req, res){
   res.render('how_it_works', { title: 'How it Works' });
 });
 
-router.get('/index', function(req, res){
-  res.render('index', { title: 'Home' });
+router.get('/sear', function(req, res){
+  res.render('search', { title: 'Home' });
 });
 
 router.get('/officesupplies', function(req, res){
@@ -64,6 +64,8 @@ router.post('/officesupplies', function(req, res, next) {
 		res.render('officesupplies', { title: 'Search Results', tweets: data.statuses})
 	})
 });
+
+
 
 
 /* Last thing that needs to run*/
