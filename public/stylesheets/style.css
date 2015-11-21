@@ -1,16 +1,28 @@
 body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
-    background-color: dimgrey; 
+    background-color: grey; 
     color: #696969;
     padding: 3px;
     height: 100%
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: center;
+    background-position: center;
+    background-size: cover;
+
+
+
+    
 }
 
-#nav{
+/*#nav{
     height: 150px;
     background: #ccc;
-}
+}*/
+
+
 
 #feed{
     text-align: center;
@@ -20,7 +32,7 @@ body {
 .pageheader h1{
     text-align: center;
 }
-.jumbotron{
+/*.jumbotron{
     background: #000 url("IMG_1042new.jpg"));
     padding: 5px;
     padding-left:  15px;
@@ -28,30 +40,35 @@ body {
     background-color: rgb(118,179,223);    
     border-radius: 0 0 5px 5px;
     text-align: center;
-}
+}*/
 #alignment{
     font-size: 25px;
     text-align: center;
+    padding-top: 100px;
 }
 
 #QuickSearch{
-    height: 600px;
+    height: 20px;
     background-color: solid grey;
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 100px;    
 }
+
 h3{
     text-align: center;
+
 }
 
 p{
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
-    font-size: 30px;
 }
 
 h1 {
     font-family: Georgia, serif;
-    border-bottom: 3px solid #33cbff;
+    /*border-bottom: 3px solid #33cbff;*/
     color: #000000;
     font-size: 30px;
     text-align: center;
@@ -69,13 +86,13 @@ ul#menu li {
     margin-right: 3px;
 }
 
-ul#menu li a {
+/*ul#menu li a {
     background-color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
     color: #696969;
     border-radius: 4px 4px 0 0;
-}
+}*/
 
 ul#menu li a:hover {
     color: white;
@@ -87,5 +104,14 @@ ul#menu li a:hover {
 }
 
 #About{
-    height: 500px;
+    height: 1px;
+}
+#header {
+
+    padding-top: 200px;
+}
+
+#header h1{
+        color: #33cbff;
+        font-size: 100px;
 }
