@@ -29,7 +29,6 @@ body {
 #alignment{
     font-size: 25px;
     text-align: center;
-    padding-top: 100px;
 }
 
 #QuickSearch{
@@ -37,7 +36,7 @@ body {
     background-color: solid grey;
     width: 900px;
     margin: 0 auto;
-    padding-top: 80px;    
+    padding-top: 60px;    
 }
 
 h3{
@@ -113,81 +112,76 @@ ul#menu li a:hover {
             3px 3px 0 #ffffff;
 }
 
+
 /* START BLOCKS IN RESULTS PAGE*/
 <style type="text/css">
 
 body {
     background-color:FFFFFF
 }
-/*.contain div {
+.contain div {
 background-color:666677;
 color:FFFFFF;
-font: 10pt Georgia,serif;
 overflow:auto
-}*/
-
+}
 a:link, a:active, a:visited, a.navbar:link, a.navbar:active, a.navbar:visited, a.man:link, a.man:active, a.man:visited, a:hover, a.navbar:hover, a.man:hover {
 color:000000;
 }
 
-.mpd1 {
-    width:175px;
+.mpd1{
+    width:345px;
     height:600px;
-    top:0;left:575px;
+    top:50px;
+    left:50px;
+}
+.mpd2{
+    width:430px;
+    height:430px;
+    top:20px;
+    left:480px;
     position:absolute
 }
-
-.mpd3 {
-    width:515px;
-    height:440px;
-    top:160px;
-    left:50px;
+.mpd4{
+    width:345px;
+    height:290px;
+    top:550px;
+    left:480px;
     position:absolute
-    }
-
-.hold {
+}
+.hold{
     background-color:transparent
 } 
-
-.contain {
+.contain{
     left:50%;
-    margin-left:-500px;
-    top:0px;
+    margin-left:-400px;
+    top:150px;
     position:absolute;
     z-index:0;
     background-color:transparent;
     visibility:visible
 }
-
-.corner {
+.corner{
     left:0;
     top:0;
     position:absolute;
     z-index:9;
     visibility:visible !important
 }
-
-.mpd {
-    left:50%;
+.mpd{left:50%;
     margin-left:-400px;
     top:0;
     position:absolute;
     z-index:9;
     visibility:visible !important
 }
-
-.comments {
-    display:none
-}
-
+.comments{display:none}
 .contacttable,.profileinfo,.latestBlogEntry,.interestsAndDetails,.extendedNetwork,.orangetext15{display:none}
 .bodyContent div div form{display:inline}
 .bodyContent table table table{visibility:hidden}
 a img{border:none}
 td,form{margin:0;padding:0}
 table,tr,td{background:transparent}
-DivOverlayLayouts.com-additional-coding{display:none}
 </style>
 
-/* END BLOCKS IN RESULTS PAGE*/
 
+/* END BLOCKS IN RESULTS PAGE*/

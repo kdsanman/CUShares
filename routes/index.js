@@ -47,7 +47,7 @@ router.get('/officesupplies', function(req, res){
 });
 
 router.post('/officesupplies', function(req, res, next) {
-	// console.log(req.body.twittersearch);
+	console.log(req.body.value);
 
 /*Search Engine */
 	var Twit = require('twit');
@@ -60,7 +60,7 @@ router.post('/officesupplies', function(req, res, next) {
 	});
 
 	/* REST API - Search for past Tweets */
-	T.get('search/tweets', { q: '#CUShares ' + '#officesupplies', count: 100 }, function(err, data, response) {
+	T.get('search/tweets', { q: '#CUShares ' + req.body.value, count: 100 }, function(err, data, response) {
 		res.render('officesupplies', { title: 'Search Results', tweets: data.statuses})
 	})
 });

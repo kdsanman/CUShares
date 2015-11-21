@@ -40,7 +40,7 @@
 	<div id="QuickSearch">
 
 		<div class="page-header">
-			<h1>Search Suggestions</h1>
+			<h1>Try searching for these categories</h1>
 		</div>
 
 		<div class="row">
@@ -67,7 +67,7 @@
 
 			<!-- START OFFICE SUPPLIES BUTTON CODE-->
 			<div class="col-xs-6 col-md-3">
-				<a class="thumbnail" href="/officesupplies">
+				<a class="thumbnail">
 					<h3>Office Supplies</h3>
 					<img src= "images/officesuplies.jpg" height="100px" width="100px">
 				</a>
@@ -101,7 +101,15 @@
 				</a>
 			</div>
 		</div>
-	</div>
+<!-- START SEARCH ENGINE CODE-->
+	<div id="alignment">
+      <form action="/results" method="post"> Search here
+      	<input type="search" name="twittersearch">
+      	<input type="submit">
+      </form>
+    </div>
+    <!-- END SEARCH ENGINE CODE-->
+  </div>
 
 </body>
 

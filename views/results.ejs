@@ -64,34 +64,30 @@
 
 <div class="hold">
   <div class="contain">
-      <div class="mpd1">
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- Ad_1 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-5275624284690527"
-                 data-ad-slot="4869361892"
-                 data-ad-format="auto"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-      </div>
 
-      <div class="mpd3">
-         <%= tweets.length %>
-        <% for(var i=0; i<tweets.length; i++) {%>
-          <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"> <%= tweets[i].text %> <a href="https://twitter.com/<%= tweets[i].user.screen_name %>/status/<%= tweets[i].id_str %>"></a></blockquote> 
-        <% } %>
-      </div>
+    <div class="mpd1">
+       <%= tweets.length %> 
+              <% for(var i=0; i<tweets.length; i++) {%>
+                <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"> <%= tweets[i].text %> <a href="https://twitter.com/<%= tweets[i].user.screen_name %>/status/<%= tweets[i].id_str %>"></a></blockquote> 
+              <% } %>
+    </div>
+
+    <div class="mpd2"> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.81747181729!2d-73.96424018461745!3d40.810004639551046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63fc1df857f%3A0x726c90faf2f17f2d!2s550+W+120th+St%2C+New+York%2C+NY+10027!5e0!3m2!1sen!2sus!4v1448097363670" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="mpd4">
+      <img src="images/add.jpg" height="200px" width="250px" alingment="center">
+    </div>
+
   </div>
 </div>
-  <div class="corner"></div>
+
+<div class="corner"></div>
 <div class="comments">
 <table><tr><td>
 <table><tr><td>
-
-
-
    
     
   </body>
