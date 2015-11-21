@@ -3,6 +3,12 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+   <script type="text/javascript" src="feed.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+   </script>
+
     <script>
       window.twttr = (function(d, s, id) 
       {
@@ -25,11 +31,68 @@
   </script>
 
   </head>
+
   <body>
-    <%= tweets.length %>
-    <% for(var i=0; i<tweets.length; i++) {%>
-      <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"> <%= tweets[i].text %> <a href="https://twitter.com/<%= tweets[i].user.screen_name %>/status/<%= tweets[i].id_str %>"></a></blockquote> 
-    <% } %>
+    <!-- START Navigation bar -->
+    <nav id = "nav">
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container-fluid">
+          <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/index">Search</a>
+              <ul class="nav navbar-nav">
+                  <li><a href="/explore">Explore</a></li>
+                  <li><a href="/how_it_works">How it Works</a></li>
+          
+                </ul>
+          </div>
+      </div>
+    </nav>
+  </nav>
+  <!-- END Navigation bar -->
+
+  <div id="QuickSearch">
+  <div class="page-header">
+      <h1>Search Results</h1>
+    </div>
+  </div>
+
+<div class="hold">
+  <div class="contain">
+      <div class="mpd1">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Ad_1 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-5275624284690527"
+                 data-ad-slot="4869361892"
+                 data-ad-format="auto"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+      </div>
+
+      <div class="mpd3">
+         <%= tweets.length %>
+        <% for(var i=0; i<tweets.length; i++) {%>
+          <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"> <%= tweets[i].text %> <a href="https://twitter.com/<%= tweets[i].user.screen_name %>/status/<%= tweets[i].id_str %>"></a></blockquote> 
+        <% } %>
+      </div>
+  </div>
+</div>
+  <div class="corner"></div>
+<div class="comments">
+<table><tr><td>
+<table><tr><td>
+
+
+
+   
     
   </body>
 </html>

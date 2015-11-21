@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+	 
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	 <script type="text/javascript" src="feed.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+	 </script>
+
+  </head>
+
+<body>
+
+	<!-- START Navigation bar -->
+  	<nav id = "nav">
+		<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+ 			<div class="container-fluid">
+    			<div class="navbar-header">
+	   			   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		    		    <span class="sr-only">Toggle navigation</span>
+		     			<span class="icon-bar"></span>
+		       			<span class="icon-bar"></span>
+		       			<span class="icon-bar"></span>
+	     			</button>
+	    			<a class="navbar-brand" href="/index">Search</a>
+	    				<ul class="nav navbar-nav">
+					      	<li><a href="/explore">Explore</a></li>
+					      	<li><a href="/how_it_works">How it Works</a></li>
+	      	
+	      				</ul>
+    			</div>
+			</div>
+		</nav>
+	</nav>
+	<!-- END Navigation bar -->
+
+	<div id="QuickSearch">
+
+		<div class="page-header">
+			<h1>Search Suggestions</h1>
+		</div>
+
+		<div class="row">
+			
+			<div class="col-xs-6 col-md-3">
+				<a class="thumbnail">
+				<h3>Cleaning Supplies</h3>
+				<img src= "images/cleaningsupplies.jpg" height="110px" width="110px">
+				</a>
+			</div>
+
+			<div class="col-xs-6 col-md-3">
+				<a class="thumbnail">
+				<h3>Kitchen Appliances</h3>
+				<img src= "images/kitchenappliances.jpg" height="100px" width="100px">
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<a class="thumbnail">
+				<h3>Electronics</h3>
+				<img src= "images/electronics.jpg" height="100px" width="100px">
+				</a>
+			</div>
+
+			<!-- START OFFICE SUPPLIES BUTTON CODE-->
+			<div class="col-xs-6 col-md-3">
+				<a class="thumbnail" href="/officesupplies">
+					<h3>Office Supplies</h3>
+					<img src= "images/officesuplies.jpg" height="100px" width="100px">
+				</a>
+			</div>
+			<!-- END OFFICE SUPPLIES BUTTON CODE-->
+		</div>
+
+		<div class="row">
+			<div class="col-xs-6 col-md-3">
+				<a class="thumbnail">
+				<h3>Toiletries</h3>
+				<img src="images/toiletries.jpg" height="100px" width="100px">
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<a class="thumbnail">
+				<h3>Clothes</h3>
+				<img src= "images/clothes.jpg" height="100px" width="100px">
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<a class="thumbnail">
+				<h3>Meal Swipes</h3>
+				<img src= "images/swipes.jpg" width="100px" height="100px">
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<a class = "thumbnail">
+				<h3>Hardware</h3>
+				<img src="images/hardware.jpg" height="100px" width="100px">
+				</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>  
