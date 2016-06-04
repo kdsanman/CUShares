@@ -1,0 +1,187 @@
+body {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 16px;
+    background-color: grey; 
+    color: #696969;
+    padding: 3px;
+    height: 100%
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: center;
+    background-position: center;
+    background-size: cover;   
+}
+
+
+#feed{
+    text-align: center;
+    margin: auto;
+    padding-left: 500px;
+}
+
+/*.pageheader h2{
+    text-align: center;
+    font-size: 60px;
+    text-align: center;
+}*/
+
+#alignment{
+    font-size: 25px;
+    text-align: center;
+}
+
+#QuickSearch{
+    height: 20px;
+    background-color: solid grey;
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 60px;    
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    /*border-bottom: 3px solid #33cbff;*/
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: #000000;
+    font-size: 70px;
+    text-align: center;
+}
+
+
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+/*ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
+}*/
+
+ul#menu li a:hover {
+    color: white;
+    background-color: black;
+}
+
+#alignment{
+    alignment: center;
+}
+
+#About{
+    height: 1px;
+}
+#header {
+
+    padding-top: 200px;
+}
+
+#header h1{
+        color: #0000F5;
+        font-size: 100px;
+     
+        text-shadow:
+           -1px -1px 0 #ffffff, 
+            1px -1px 0 #ffffff,
+           -1px 1px 0 #ffffff,
+            1px 1px 0 #ffffff;
+}
+
+
+/* START BLOCKS IN RESULTS PAGE*/
+<style type="text/css">
+
+body {
+    background-color:FFFFFF
+}
+.contain div {
+background-color:666677;
+color:FFFFFF;
+overflow:auto
+}
+a:link, a:active, a:visited, a.navbar:link, a.navbar:active, a.navbar:visited, a.man:link, a.man:active, a.man:visited, a:hover, a.navbar:hover, a.man:hover {
+color:000000;
+}
+
+.mpd1{
+    width:345px;
+    height:600px;
+    top:50px;
+    left:50px;
+}
+.mpd2{
+    width:430px;
+    height:430px;
+    top:20px;
+    left:480px;
+    position:absolute
+}
+.mpd4{
+    width:345px;
+    height:290px;
+    top:550px;
+    left:480px;
+    position:absolute
+}
+.hold{
+    background-color:transparent
+} 
+.contain{
+    left:50%;
+    margin-left:-400px;
+    top:150px;
+    position:absolute;
+    z-index:0;
+    background-color:transparent;
+    visibility:visible
+}
+.corner{
+    left:0;
+    top:0;
+    position:absolute;
+    z-index:9;
+    visibility:visible !important
+}
+.mpd{left:50%;
+    margin-left:-400px;
+    top:0;
+    position:absolute;
+    z-index:9;
+    visibility:visible !important
+}
+.comments{display:none}
+.contacttable,.profileinfo,.latestBlogEntry,.interestsAndDetails,.extendedNetwork,.orangetext15{display:none}
+.bodyContent div div form{display:inline}
+.bodyContent table table table{visibility:hidden}
+a img{border:none}
+td,form{margin:0;padding:0}
+table,tr,td{background:transparent}
+</style>
+
+
+/* END BLOCKS IN RESULTS PAGE*/
