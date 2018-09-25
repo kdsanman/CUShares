@@ -3,24 +3,30 @@ The main purpose of this web app is to help other Columbia University students f
 Based on the location of the tweets and your location, you could reply or DM the author of the tweet that corresponds to the article and arrange the exchange for a pre-specified amount of time.
 
 # To Run this Web app
+### Step 1
 ```
-1. git clone https://github.com/kdsanman/CUSharesFinal.git <br>
-   cd CUSharesFinal
+git clone https://github.com/kdsanman/CUSharesFinal.git
+cd CUSharesFinal
 ```
+### Step 2
 ```
-2. pip npm install
-```
-OR
-```
-2. brew npm install
+pip npm install
 ```
 OR
 ```
-2. npm install
+brew npm install
 ```
-OR <br>
-2. Install Node.js from [here](https://nodejs.org/en/download/) <br>
+OR
 ```
-3. npm start
+npm install
 ```
-Now go to your browser-> localhost:3000
+OR
+Install Node.js from [here](https://nodejs.org/en/download/)
+### Step 3
+```
+npm start
+```
+Now go to your browser-> 
+```
+localhost:3000
+```
